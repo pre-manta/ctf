@@ -1,1 +1,42 @@
-test
+Others-----------################################################################################################
+	1. https://github.com/The-Art-of-Hacking/h4cker/tree/master
+	2. https://dogbolt.org/ -- disassembly/Reverse Engineering
+	3. https://dencode.com/ -- decode
+	4. https://www.ilovepdf.com/ -- crack pdf
+
+Extensions-------################################################################################################
+	1. FoxyProxy
+	2. Wappalyzer
+	3. Cookie-Editor
+Nmap-------------################################################################################################
+	1. Deep Scan - nmap -A -T4 -p- -Pn <target>
+	2. SSH Bruteforce - nmap --script=ssh-brute -p 22 <target>
+	3. Aggresive Scan - nmap -T4 -A -v --open -oN scan_results.txt 192.168.0.0/16
+	4. Vulnerable Scan - nmap -sV --script vulners --script-args mincvss=4 <target>
+Reconnaissance---################################################################################################
+
+	https://infosecwriteups.com/bypass-firewall-by-finding-origin-ip-41ba984e1342
+	1. dnsrecon -d facebook.com (cli)
+	2. platform.censys.io (pmanta acc)
+	3. securitytrails.com (pmanta acc)
+
+CLI--------------################################################################################################
+	1. sudo apt install zbar-tools - Convert QR Images to text
+		1.1 zbarimg flag.png
+	2. sudo apt install qsstv - Convert audio to images (https://github.com/Dvd848/CTFs/blob/master/2019_picoCTF/m00nwalk.md)
+	3. tree – list of all files
+	4. find -name "*.txt"  
+	5. mmls - is a tool that is part of The Sleuth Kit, commonly used for analyzing disk images and partition tables. (FORENSICS)
+		5.1 fls -o (off set or the start)
+		5.2 srch_strings dds1-alpine.flag.img | grep picoCTF
+	6. binwalk - binwalk -e 
+	7. zsteg - gem install zsteg
+	8. StegHide (only jpg, bmp, wav, and AU)
+		8.1 Embed text.txt file in image.jpg - steghide embed -cf image.jpg -ef text.txt
+		8.2 Extract image.jpg - steghide extract -sf image.jpg
+	9. Stepic Python image steganography - pip install stepic
+		9.1 - stepic -d -i upz.png -o flag.txt
+	10. ghex - hex editor
+	11. grep -r -o "{[^}]*}"
+	12. grep -Eo '[A-Za-z0-9+/=]{20,}' --- FOR BASE64 ENCODING just add “-r”
+
