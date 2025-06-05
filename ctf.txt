@@ -1,26 +1,40 @@
 Others-----------################################################################################################
+
 	1. https://github.com/The-Art-of-Hacking/h4cker/tree/master
-	2. https://dogbolt.org/ -- disassembly/Reverse Engineering
+	2. https://owasp.org/www-project-web-security-testing-guide/stable/
 	3. https://dencode.com/ -- decode
 	4. https://www.ilovepdf.com/ -- crack pdf
-
+	5. ffplay -rtsp_transport tcp -i "rtsp://admin:admin@192.168.100.114:554/cam/realmonitor?channel=1&subtype=0"
+	6. https://dogbolt.org/ -- disassembly/Reverse Engineering
+	
+	
 Extensions-------################################################################################################
+
 	1. FoxyProxy
 	2. Wappalyzer
 	3. Cookie-Editor
+	
 Nmap-------------################################################################################################
+
 	1. Deep Scan - nmap -A -T4 -p- -Pn <target>
 	2. SSH Bruteforce - nmap --script=ssh-brute -p 22 <target>
 	3. Aggresive Scan - nmap -T4 -A -v --open -oN scan_results.txt 192.168.0.0/16
 	4. Vulnerable Scan - nmap -sV --script vulners --script-args mincvss=4 <target>
+	
 Reconnaissance---################################################################################################
 
 	https://infosecwriteups.com/bypass-firewall-by-finding-origin-ip-41ba984e1342
 	1. dnsrecon -d facebook.com (cli)
 	2. platform.censys.io (pmanta acc)
 	3. securitytrails.com (pmanta acc)
+	
+SQL-INJECTION----################################################################################################
+
+	1. XOR(if(now()=sysdate(),sleep(5),0))XOR - If the server delays for 5 seconds, it’s likely vulnerable to SQL injection
+	2. SQLI CHEATSHEET -- https://ansar0047.medium.com/blind-sql-injection-detection-and-exploitation-cheatsheet-17995a98fed1
 
 CLI--------------################################################################################################
+
 	1. sudo apt install zbar-tools - Convert QR Images to text
 		1.1 zbarimg flag.png
 	2. sudo apt install qsstv - Convert audio to images (https://github.com/Dvd848/CTFs/blob/master/2019_picoCTF/m00nwalk.md)
